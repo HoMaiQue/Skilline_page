@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+input,
+area,
+select,
+button {
+    outline: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+label,
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    line-height: normal;
+}

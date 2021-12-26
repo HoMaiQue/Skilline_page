@@ -1,0 +1,28 @@
+body {
+    font-size: 22px;
+    color: $gray-darker;
+    font-weight: 400;
+    font-family: $font-primary;
+    line-height: 1;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 13px 50px;
+    font-family: $font-primary;
+    border: 0;
+    outline: none;
+    border-radius: 100rem;
+    &--primary {
+        color: #fff;
+        background-color: $secondary-color;
+    }
+    &--white {
+        background-color: #fff;
+        color: $gray-light;
+    }
+
+}
