@@ -1,0 +1,106 @@
+.youcan {
+    display: flex;
+    align-items: center;
+    max-width: 1577px;
+    padding: 0 15px;
+    margin: 0 auto 160px;
+    gap: 0 67px;
+    
+    &-content {
+        position: relative;
+        max-width: 730px;
+        padding-left: 25px;
+        &::before {
+            position: absolute;
+            top: -13px;
+            left: 0;
+            content: "";
+            display: block;
+            width: 73px;
+            height: 73px;
+            border-radius: 100rem;
+            background-color: #f4b767;
+            z-index: -1;
+        }
+    }
+    &-title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 160%;
+        color: $primary-color;
+        margin-bottom: 30px;
+        span {
+            color: $secondary-color;
+        }
+    }
+
+    &-dsc {
+        font-size: 24px;
+        line-height: 180%;
+        letter-spacing: 0.02em;
+        color: $gray;
+        margin-bottom: 30px;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: " ";
+            width: 30px;
+            height: 30px;
+            border-radius: 100rem;
+            background-color: #f4b767;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    &-link {
+        font-size: 22px;
+        line-height: 180%;
+        color: $gray;
+        text-decoration: underline;
+    }
+    &-image {
+        max-width: 705px;
+        position: relative;
+
+        &::before {
+            content:"";
+            width: 138px;
+            height: 138px;
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            display: block;
+            background-color: $blue;
+            border-radius: 20px;
+            z-index: -1;
+        }
+        &::after {
+            content:"";
+            width: 138px;
+            height: 138px;
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            display: block;
+            background-color: #F3AC50;
+            border-radius: 20px;
+            z-index: -1;
+        }
+    }
+
+    &-icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 100rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
