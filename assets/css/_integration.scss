@@ -1,0 +1,36 @@
+.integration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1487px;
+    padding: 0 15px;
+    gap: 0 291px;
+    margin: 0 auto 170px;
+
+    &-content {
+        max-width: 688px;
+        width: 100%;
+    }
+
+    &-heading {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 160%;
+        color: $primary-color;
+        margin-bottom: 30px;
+        span {
+            color: $secondary-color;
+        }
+    }
+
+    &-dsc {
+        font-size: 24px;
+        line-height: 180%;
+        margin-bottom: 44px;
+        color: $gray;
+    }
+
+    &-btn {
+        padding: 22px 42px;
+    }
+}
